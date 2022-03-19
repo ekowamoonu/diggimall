@@ -1,0 +1,121 @@
+body{
+	font-family: "Open Sans",sans-serif;
+	margin:0;
+	padding:0;
+	background-color: #f5f5f5;
+}
+
+.navbar-inverse{
+  border-bottom: 1px solid #eee;
+
+}
+
+/*below nav container*/
+.below-nav{
+	/*border-top:1px solid #eee;*/
+	border-bottom: 1px solid #eee;
+	padding:15px;
+	background-color:white;
+
+}
+
+.below-nav h3{
+	font-size: 14px;
+	padding:0;
+	margin:0;
+	letter-spacing: 1px;
+}
+
+.log-error{
+	margin:0;
+	padding:0;
+	min-height: 50px;
+
+}
+
+.log-error .error-container {
+    margin-top: -10px;
+    width:inherit;
+    height:40px;
+    padding:0;
+}
+
+.alert {;
+    padding: 7px;
+    padding-top:0;
+}
+
+/*registration-container*/
+.registration-container{
+	margin-top: 25px;
+	padding:10px;
+}
+
+.form{
+	padding:30px;
+	background-color: white;
+}
+
+.login-row{
+	padding:0;
+	margin: 0;
+}
+
+.form .btn{
+    background-color: #f36700;
+    border: medium none;
+    border-radius: 0;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 15px 20px;
+}
+
+.form .btn:hover{
+	background-color: #d9822a;
+}
+
+.login-form{
+	min-height:260px;
+}
+
+.signup-form{
+	min-height: 810px;
+}
+
+.form .form-control{
+	margin-bottom: 15px;
+	border-radius: 0;
+}
+
+.registration-container h4{
+	color:white;
+	padding:10px;
+	background-color:#049372 ;
+	margin-bottom:0px;
+	margin-top: 10px;
+}
+
+/*why shop*/
+.why-shop{
+	background-color: white;
+	padding:10px;
+	margin-bottom: -9px;
+	margin-top:50px;
+}
+.why-shop .why-reason{
+	border-right:1px solid #eee;
+}
+
+
+.first-h4{
+	margin-top: 40px;
+}
+
+
+
+
+

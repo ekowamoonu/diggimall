@@ -1,0 +1,168 @@
+body{
+	font-family: "Open Sans",sans-serif;
+	margin:0;
+	padding:0;
+   background-color: #f5f5f5;
+}
+
+.navbar-inverse{
+  border-bottom: 1px solid #eee;
+
+}
+
+/*profile upload box*/
+.profile-upload-box,.profile-details-box{
+   margin-top:10px;
+   margin-bottom:30px;
+   background:white;
+   padding:10px;
+   border-left:1px solid #eee;
+   border-top:1px solid #eee;
+   border-right:2px solid #eee;
+   border-bottom:2px solid #eee;
+}
+
+.profile-upload-box label{
+	font-size: 16px;
+	border-radius:0;
+	padding:14px;
+	margin-top:4%;
+}
+
+
+.profile-details-box ul li{
+  font-size:15px;
+}
+
+.profile-details-box span{
+	color:#999;
+}
+
+
+
+.faq-head-container{
+	padding:0;
+}
+
+
+/*item particular*/
+
+.items-list-col > h4{
+	background-color:#3498db;
+	color:white;
+	padding:13px;
+}
+
+.items-list-col .col-md-4{
+	padding-left: 0;
+}
+
+.item-box{
+	background-color:white;
+	height:auto;
+	margin-top:1%;
+	overflow: hidden;
+}
+
+.item-details{
+   margin-bottom:30px;
+   background:white;
+   padding:10px;
+}
+
+.item-details .btn-danger{
+	margin-top:15px;
+	border-radius:0;
+}
+
+.item-details ul li{
+	font-size:16px;
+}
+
+.item-details ul li span{
+	color:#3498DB;
+}
+
+
+/*seller item list*/
+
+.items-list-side > h4{
+	background-color:#3498db;
+	color:white;
+	padding:13px;
+}
+
+/*.items-list-col .col-md-4{
+	padding-left: 0;
+}*/
+
+.item-details-side{
+   margin-bottom:30px;
+   background:white;
+   padding:10px;
+   height:640px;
+   overflow: scroll;
+}
+
+.item-details-side ul li{
+	font-size:16px;
+}
+
+.item-details-side ul li a:hover{
+	background-color:#52B3D9;
+	color:white;
+	-webkit-transition:0.3s ease;
+	-moz-transition:0.3s ease;
+	-o-transition:0.3s ease;
+	-ms-transition:0.3s ease;
+	transition:0.3s ease;
+}
+
+/*update forms*/
+.update-forms{
+	background-color:white;
+	padding:20px;
+	padding-left:40px;
+	margin-top:4px;
+}
+
+.update-forms .form-control{
+	border-radius: 0;
+	box-shadow:none;
+	/*border:none;*/
+	border:1px solid #eee;
+	font-size: 16px;
+	/*width:500px;*/
+	width:70%;
+	min-width:260px;
+	height:47px;
+	margin-bottom:3px;
+}
+
+.update-forms .form-group{
+	width:100%;
+}
+
+.update-forms .form-control:hover{
+	border-color:#3498DB;
+}
+
+.update-forms .btn-success{
+  border-radius:0;
+  padding:10px 25px;
+  font-size: 16px;
+}
+
+.update-forms .row{
+	margin-bottom:5%;
+}
+
+
+
+
+
+
+
+
+
+

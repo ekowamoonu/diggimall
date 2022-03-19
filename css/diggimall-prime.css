@@ -1,0 +1,318 @@
+body{
+	font-family: "Open Sans",sans-serif;
+	margin:0;
+	padding:0;
+   background-color: #e7edee;
+}
+
+.navbar-inverse{
+  border-bottom: 1px solid #eee;
+
+}
+
+.contain{
+  padding:25px;
+}
+
+.form-control {
+	border-radius: 0;
+}
+
+.btn {
+	border-radius: 0;
+}
+
+
+/*---Banner Starts (Section One)---*/
+.banner .img-responsive {
+}
+
+/*---//Banner Ends---*/
+
+
+/*---section two starts---*/
+.services {
+	padding-top: 40px;
+}
+
+.services h2 {
+	text-align: center;
+	font-size: 40px;
+}
+
+.services .lead {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+  font-size: 18px;
+}
+
+.services span {
+	color: #DC143C;
+
+}
+
+.services .btn-info {
+    color: #fff;
+    background-color: #4682B4;
+    border-color: #4682B4;
+}
+/*---//section two ends---*/
+
+@media screen and (max-width: 767px) {
+    .thumbnail { 
+      border: 1px solid transparent;
+      border-bottom: 1px solid #eee;}
+}
+
+@media screen and (min-width: 768px) {
+    .thumbnail { 
+       border: 1px solid transparent;}
+}
+
+
+.thumbnail {
+    border-radius: 0;
+    display: block;
+    line-height: 1.42857;
+    margin-bottom: 20px;
+    padding: 13px;
+}
+
+.thumbnail h3{
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+
+
+.thumbnail p .btn-info{
+  margin-top: 35px;
+  padding:13px;
+  text-transform: uppercase;
+}
+
+.points{
+  background-color: white;
+}
+
+
+/*---Section Three Starts---*/
+.about{
+	border-bottom: 1px solid;
+	border-color: #A9A9A9;
+	border-radius: 0;
+	background-image: url(../images/about_bg.jpg);
+	color: white;
+}
+
+.abouthead {
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.abouthead h2 {
+	color: red;
+	font-size: 40px;
+	text-align: center;
+	font-weight: 600;
+}
+
+.abouthead p {
+	text-align: center
+}
+
+.aboutcont {
+	padding-top: 15px;
+}
+
+.aboutcont p {
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+/*---//Section Three Ends---*/
+
+
+/*---//Section What Starts---*/
+.what{
+  margin-top:50px;
+	border-color: #A9A9A9;
+	border-radius: 0;
+	padding-bottom: 15px;
+	background-color: white;
+  padding:15px;
+}
+
+.what .container{
+  padding:20px;
+}
+
+.what {
+	text-align: center;
+}
+
+.what h2 {
+	font-size: 40px;
+	color: #2F4F4F;
+	text-align: center;
+}
+
+.what h3 {
+	color: #FF5733;
+	text-align: center;
+}
+/*---//Section What Ends---*/
+
+
+/*---//Section What Ends---*/
+.btn-custom {
+  color: #bdc3c7;
+  font-size: 18px;
+  border: 1px solid #bdc3c7;
+}
+.btn-custom:hover {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+#pricing-table {
+  padding-top: 50px;
+}
+
+.pricing-title{
+  color:white;
+  font-size: 27px;
+}
+
+.pricing-rate{
+  color:white;
+  font-size:20px;
+}
+
+#pricing-table h2{
+  font-size:40px;
+  padding-bottom: 40px;
+}
+#pricing-table .pricing {
+  margin: 0;
+  padding: 0;
+  font-family: 'Robot', sans-serif;
+}
+#pricing-table .pricing .pricing-table {
+  padding-bottom: 30px;
+}
+#pricing-table .pricing .pricing-table .pricing-header1 {
+  position: relative;
+  background: #AA5314;
+  padding: 22px 22px;
+  text-align: center;
+}
+
+#pricing-table .pricing .pricing-table .pricing-header2 {
+  position: relative;
+  background: #E87E04;
+  padding: 22px 22px;
+  text-align: center;
+}
+
+#pricing-table .pricing .pricing-table .pricing-header3 {
+  position: relative;
+  background: #049372;
+  padding: 22px 22px;
+  text-align: center;
+}
+
+#pricing-table .pricing .pricing-table .pricing-header4 {
+  position: relative;
+  background: #95A5A6;
+  padding: 22px 22px;
+  text-align: center;
+}
+
+#pricing-table .pricing .pricing-table .pricing-header5 {
+  position: relative;
+  background: #CF000F;
+  padding: 22px 22px;
+  text-align: center;
+
+}
+
+#pricing-table .pricing .pricing-table .pricing-header1 .pricing-header2 .pricing-header3 .pricing-header4 .pricing-header5 .pricing-title {
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+}
+
+
+#pricing-table .pricing .pricing-table .pricing-header1 .pricing-header2 .pricing-header3 .pricing-header4 .pricing-header5 .pricing-rate {
+  font-size: 70px;
+  font-weight: 700;
+  color: #ffffff;
+  position: relative;
+  text-align: center;
+}
+#pricing-table .pricing .pricing-table .pricing-header1 .pricing-header2 .pricing-header3 .pricing-header4 .pricing-header5 .pricing-rate sup {
+  font-size: 24px;
+  position: relative;
+  top: -30px;
+  color: #bdc3c7;
+}
+#pricing-table .pricing .pricing-table .pricing-header1 .pricing-header2 .pricing-header3 .pricing-header4 .pricing-header5 .pricing-rate span {
+  font-size: 16px;
+  color: #bdc3c7;
+  text-transform: uppercase;
+}
+#pricing-table .pricing .pricing-list {
+  padding: 20px 0 40px 0;
+  background: #ffffff;
+  min-height: 310px;
+ /* border: 1px solid #e3e3e3;*/
+}
+#pricing-table .pricing .pricing-list ul {
+  padding: 0px;
+  display: table;
+  margin: 0px auto;
+}
+#pricing-table .pricing .pricing-list ul li {
+  list-style: none;
+  border-bottom: 1px solid #EAECEB;
+  color: #bdc3c7;
+  font-size: 16px;
+  line-height: 42px;
+}
+#pricing-table .pricing .pricing-list ul li:last-child {
+  border: none;
+}
+#pricing-table .pricing .pricing-list ul li i {
+  margin-right: 12px;
+  color: #bdc3c7;
+}
+#pricing-table .pricing .pricing-list ul li span {
+  color: #34495e;
+}
+
+/*---//Section What Ends---*/
+
+
+
+/*---Call To Action---*/
+.cta {
+	background-color: white;
+	height: auto;
+	overflow: hidden;
+  margin-top: 50px;
+}
+
+.cta_text h2 {
+	color: #DC143C;
+	font-size: 45px;
+	font-weight: 700;
+}
+
+.ctabtn {
+	margin-top: 15px;
+}
+/*---//Call To Action Ends---*/
+

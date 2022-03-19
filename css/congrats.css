@@ -1,0 +1,72 @@
+body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: none;
+	font-family: "Open Sans",sans-serif;
+	overflow-x:hidden;
+}
+
+html {
+  background: url(../images/congrats_patts.png) repeat-x fixed; 
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.congrats_message{
+	font-family: cursive;
+	font-size: 26px;
+
+}
+.btn-danger{
+	padding:10px;
+	border-radius: 0;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.customers-list-container{
+	margin-top:4%;
+}
+
+.image-box{
+	height:330px;
+	overflow: hidden;
+	position: relative;
+}
+
+.img-responsive{
+	margin:0 auto;
+}
+
+.customers-list-container .col-sm-3{
+	margin-top:40px;
+}
+
+.last-box{
+	margin-bottom: 40px;
+}
+
+.details{
+	position: absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	padding: 7px;
+    background-color: #049372;
+    
+}
+
+.details p{
+	color:white;
+	font-size: 18px;
+}
+
+h5{
+	font-size: 20px;
+}
+
+
+

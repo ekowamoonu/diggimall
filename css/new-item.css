@@ -1,0 +1,197 @@
+body{
+	font-family: "Open Sans",sans-serif;
+	margin:0;
+	padding:0;
+   background-color: #f5f5f5;
+}
+
+.navbar-inverse{
+  border-bottom: 1px solid #eee;
+
+}
+
+/*profile upload box*/
+.profile-upload-box,.profile-details-box{
+   margin-top:10px;
+   margin-bottom:30px;
+   background:white;
+   padding:10px;
+   border-left:1px solid #eee;
+   border-top:1px solid #eee;
+   border-right:2px solid #eee;
+   border-bottom:2px solid #eee;
+}
+
+
+.profile-details-box span{
+	color:#999;
+}
+
+
+
+.faq-head-container{
+	padding:0;
+}
+
+
+/*item particular*/
+
+
+.items-list-col > h4{
+	background-color:#3498db;
+	color:white;
+	padding:13px;
+}
+
+@media screen and (max-width: 767px) {
+.items-list-col .col-md-4{
+	margin-top: 10px;
+	padding:0;
+  }
+}
+
+
+.items-list-col{
+margin-bottom: 50px;
+}
+
+.item-details{
+   margin-bottom:30px;
+   background:white;
+   padding:10px;
+   height:640px;
+   overflow: scroll;
+}
+
+.item-details ul li{
+	font-size:16px;
+}
+
+.item-details ul li a:hover{
+	background-color:#52B3D9;
+	color:white;
+	-webkit-transition:0.3s ease;
+	-moz-transition:0.3s ease;
+	-o-transition:0.3s ease;
+	-ms-transition:0.3s ease;
+	transition:0.3s ease;
+}
+
+/*update forms*/
+.new-item-forms{
+	background-color:white;
+	padding:20px;
+	padding-left:40px;
+	padding-right: 30px;
+	margin-top:4px;
+}
+
+.new-item-forms .btn-danger{
+	border-radius:0;
+	padding:10px;
+	margin-top: 20px;
+}
+
+.new-item-forms .btn-info{
+	padding:12px;
+	border-radius: 0;
+	margin-bottom:10px;
+	font-weight: bold;
+}
+
+.new-item-forms .form-legend{
+	color:#999;
+}
+
+.new-item-forms textarea{
+	max-width: 100%;
+}
+
+.new-item-forms .form-control{
+	border-radius: 0;
+	box-shadow:none;
+	height:45px;
+	/*border: none;*/
+	border:1px solid #eee;
+	font-size: 16px;
+	width:87%;
+	margin-bottom: 30px;
+}
+
+.new-item-forms .form-control:hover{
+	border-color:#3498DB;
+}
+
+.new-item-forms .btn-success{
+  border-radius:0;
+  padding:10px 25px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.new-item-forms .row{
+	margin-bottom:5%;
+}
+
+.faq-head{
+	background-color:white;
+	font-family: "Trebuchet MS",sans-serif;
+	height:auto;
+	min-height:100px;
+	border-bottom: 4px solid #e7edee;
+}
+
+.faq-head h3{
+	margin:0;
+	padding:0;
+	padding-top:30px;
+	color:#999;
+}
+
+.main-container{
+	margin-top:10px;
+	background-color:white;
+	border-bottom: 4px solid #e7edee;
+	padding:20px;
+	height:auto;
+}
+
+.terms-row{
+	padding:26px;
+}
+
+.terms-row h3{
+	font-family: "Trebuchet MS",sans-serif;
+}
+
+
+
+
+/*call to action*/
+.call-to-action .btn{
+  padding:20px;
+  font-size:16px;
+  margin-top: 3%;
+  color:white;
+  border-radius: 0;
+}
+
+.call-to-action .btn-default:hover{
+	background-color:white;
+	color:#579ed2;
+	border:1px solid #579ed2;
+	transition:0.3s ease;
+}
+
+
+.done-container{
+	margin-top: 7%; 
+	font-family: "Trebuchet MS",sans-serif;
+}
+
+
+
+
+
+
+

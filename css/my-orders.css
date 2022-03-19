@@ -1,0 +1,109 @@
+html,body{
+	margin:0;
+	padding:0;
+	font-family: "Open Sans",sans-serif;
+	background-color:#f6f6f6;
+}
+
+.navbar-inverse{
+border-bottom:1px solid transparent;
+}
+
+
+.main-container{
+	margin-top:10px;
+}
+
+
+/*sidebox*/
+.sidebox{
+	background-color:white;
+	height: auto;
+	min-height:650px;
+	width:100%;
+	padding:7%;
+}
+
+
+.list h4{
+	background-color:#347eb1;/*#00B16A;*/
+	color:white;
+	padding:3%;
+	margin: 0;
+}
+
+
+
+.details h4{
+	background-color:#00B16A;/*#049372;*/
+	color:white;
+	padding:14px;
+	margin: 0;
+}
+
+.details .col-md-4{
+	padding-left:0;
+}
+
+.details .col-md-9{
+
+}
+
+.details table{
+	margin-top:2%;
+	background-color: white;
+	font-size: 16px;
+}
+
+
+.img-responsive{
+	margin:0 auto;
+}
+
+/*filter form*/
+.filter-form h5{
+	background-color:#eee;/*#049372;*/
+	color:black;
+	padding:14px;
+}
+
+.filter-details{
+		margin-top: 2%;
+}
+
+.filter-form{
+	margin-top: 0;
+	padding:0;
+}
+.filter-form .form-control{
+	border-radius: 0;
+	height:40px;
+	font-weight: bold;
+}
+
+
+
+.btn-success{
+	padding:10px;
+	border-radius:0;
+}
+
+.btn-danger{
+	border-radius: 0;
+	padding:12px;
+}
+
+/*small screen*/
+.small-row{
+	margin-top:9px;
+}
+.small-screen-display{
+	background-color: white;
+	margin-bottom: 18px;
+	padding:13px;
+	margin-left: 2%;
+}
+
+.small-screen-display span{
+	color:#347eb1;
+}

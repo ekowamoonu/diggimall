@@ -1,0 +1,168 @@
+body{
+	font-family: "Open Sans",sans-serif;
+	margin:0;
+	padding:0;
+   background-color: #f7f7f7;
+}
+
+.navbar-inverse{
+  border-bottom: 1px solid #eee;
+
+}
+
+/*profile upload box*/
+.profile-upload-box,.tutorials-box,.profile-details-box{
+   margin-top:10px;
+   margin-bottom:30px;
+   background:white;
+   padding:10px;
+   border-left:1px solid #eee;
+   border-top:1px solid #eee;
+   border-right:2px solid #eee;
+   border-bottom:2px solid #eee;
+}
+
+
+.profile-details-box span{
+	color:#999;
+}
+
+
+
+/*sellers items*/
+
+.items-list-col{
+	background-color: white;
+	margin-top:12px;
+	padding-bottom: 13px;
+	min-height: 400px;
+}
+
+.tracking-row h4{
+	background-color:#3498db;
+	color:white;
+	padding:13px;
+}
+
+.list h4{
+	background-color:#eee;
+	color:black;
+	padding:13px;
+	margin:0;
+}
+
+.list h4:first-child{
+	background-color: #1BA39C;
+	color:white;
+	cursor: pointer;
+}
+
+/*sidebox*/
+.sidebox{
+	background-color:#fcf8f8;
+	height: auto;
+	min-height:650px;
+	width:100%;
+	padding:7%;
+}
+
+.sidebox .btn{
+	border-radius: 0;
+}
+
+
+.sidebox .form-control{
+	border-radius: 0;
+}
+
+/*small screen*/
+.small-row{
+	margin-top:9px;
+}
+.small-screen-display{
+	background-color: white;
+	margin-bottom: 18px;
+	padding:13px;
+	margin-left: 2%;
+	border-bottom: 2px solid #eee;
+	border-top:2px solid #eee;
+}
+
+.small-screen-display span{
+	color:#347eb1;
+}
+
+/*statistics row*/
+.stats-row{
+ padding-top:10px;
+}
+
+.stats-row div div{
+	padding:12px;
+	color:white;
+	text-align: center;
+	margin-top:3px;
+}
+
+.stats-row div div h2{
+  font-size:35px;
+}
+
+.stats-row div div p{
+	margin-top:20px;
+	padding:6px;
+	text-align: center;
+}
+
+.stats-row div.associate-status{
+	/*background-color:#CF000F;*/
+}
+
+.stats-row div.associate-status p{
+	background-color:white;
+	color:black;
+
+}
+
+.stats-row div.customers{
+	background-color:#1E824C;
+	cursor:pointer;
+}
+
+
+.stats-row div.customers:hover{
+opacity:0.9;
+}
+
+.stats-row div.customers p{
+	background-color:#043c1e;
+
+}
+
+.stats-row div.orders{
+	background-color:#1E8BC3;
+}
+
+.stats-row div.orders p{
+	background-color:#044a6d;
+
+}
+
+/*tracking row*/
+.tracking-row{
+	padding:14px;
+}
+
+/*customer list*/
+.customers-list{
+	margin-top:2%;
+}
+
+
+
+
+
+
+
+
+

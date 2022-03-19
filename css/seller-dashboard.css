@@ -1,0 +1,217 @@
+body{
+	font-family: "Open Sans",sans-serif;
+	margin:0;
+	padding:0;
+   background-color: #f7f7f7;
+}
+
+.navbar-inverse{
+  border-bottom: 1px solid #eee;
+
+}
+
+.share-shop{
+   background-color: #1E824C;
+}
+
+.share-shop p{
+	padding:5px;
+	margin: 0;
+}
+
+/*profile upload box*/
+.profile-upload-box,.tutorials-box,.profile-details-box{
+   margin-top:10px;
+   margin-bottom:30px;
+   background:white;
+   padding:10px;
+   border-left:1px solid #eee;
+   border-top:1px solid #eee;
+   border-right:2px solid #eee;
+   border-bottom:2px solid #eee;
+}
+
+
+.profile-details-box span{
+	color:#999;
+}
+
+.tutorials-box h4{
+	color:#999;
+}
+
+.tutorials-box h4 a{
+	color:black;
+	font-weight: bold;
+}
+
+.faq-head-container{
+	padding:0;
+}
+
+
+/*sellers items*/
+
+.items-list-col{
+	background-color: white;
+	margin-top:12px;
+	padding-bottom: 13px;
+	min-height: 400px;
+}
+
+.items-list-col > h4{
+	background-color:#3498db;
+	color:white;
+	padding:13px;
+}
+
+
+.items-list-col h5{
+	background-color:white;
+	color:white;
+	padding:8px;
+}
+
+.items-list-col h5 .form-control{
+	border-radius:0;
+	border:1px solid transparent;
+	box-shadow:none;
+	background-color:white;
+	font-size: 18px;
+}
+
+.input-group-addon{
+	background-color:#f36700;
+	color:white;
+	border:1px solid transparent;
+	border-radius: 0;
+	font-size: 18px;
+}
+
+.actual-list h4{
+   background:white;
+   padding:13px;
+   position: relative;
+ /*  border-left:1px solid #eee;
+   border-top:1px solid #eee;
+   border-right:2px solid #eee;*/
+   /*border-bottom:1px solid #eee;*/
+   cursor:pointer;
+   margin-bottom: 0;
+}
+
+.actual-list .img-responsive{
+	margin:70px auto;
+}
+
+
+.actual-list h4 span{
+	display: block;
+	position:absolute;
+	-webkit-transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	transition:all 0.3s ease;
+	background-color:rgba(36, 99, 242,0.7);/*#049372;*/
+	width:0;
+	height:100%;
+	left:0;
+	top:0;
+	overflow:hidden;
+}
+
+.actual-list h4:hover .item-overlay{
+	width:100%;
+}
+
+
+.actual-list h4 span .btn-info{
+
+	font-size:18px;
+	background:transparent;
+	border:transparent;
+	padding-top: 10px;
+	color:white;
+}
+
+.item-details{
+   margin-bottom:30px;
+   background:white;
+   padding:10px;
+   border-left:1px solid #eee;
+   border-right:2px solid #eee;
+   border-bottom:2px solid #eee;
+   cursor:pointer;
+}
+
+.item-details ul li{
+	font-size:18px;
+}
+
+.item-details ul li span{
+	color:#049372;
+}
+
+.faq-head{
+	background-color:white;
+	font-family: "Trebuchet MS",sans-serif;
+	height:auto;
+	min-height:100px;
+	border-bottom: 4px solid #e7edee;
+}
+
+.faq-head h3{
+	margin:0;
+	padding:0;
+	padding-top:30px;
+	color:#999;
+}
+
+.main-container{
+	margin-top:10px;
+	background-color:white;
+	border-bottom: 4px solid #e7edee;
+	padding:20px;
+	height:auto;
+}
+
+.terms-row{
+	padding:26px;
+}
+
+.terms-row h3{
+	font-family: "Trebuchet MS",sans-serif;
+}
+
+
+
+
+/*call to action*/
+.call-to-action .btn{
+  padding:20px;
+  font-size:18px;
+  margin-top: 3%;
+  color:white;
+  border-radius: 0;
+}
+
+.call-to-action .btn-default:hover{
+	background-color:white;
+	color:#579ed2;
+	border:1px solid #579ed2;
+	transition:0.3s ease;
+}
+
+
+.done-container{
+	margin-top: 7%; 
+	font-family: "Trebuchet MS",sans-serif;
+}
+
+
+
+
+
+
+

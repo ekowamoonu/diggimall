@@ -1,0 +1,107 @@
+body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: none;
+	font-family: "Open Sans",sans-serif;
+	overflow-x:hidden;
+}
+
+html {
+  background: url(../images/banner-image.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media screen and (max-width: 767px) {
+.overall-container{
+	 margin-top:3%;
+  }
+}
+
+@media (min-width: 768px) and (min-width: 992px) and (min-width: 1200px) {
+
+.overall-container{
+	 margin-top:9%;
+  }
+}
+
+.overall-container{
+
+/* background-color: rgba(255,255,255,0.6);*/
+ padding:20px;
+ color:white;
+
+}	
+
+.cover{
+background-color: rgba(255,255,255,0.6);
+}
+
+
+.logo img{
+	margin:0 auto;
+}
+
+.slider-overlay h3{
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+hr { 
+	border: 0; 
+	height: 2px; 
+	background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+  }
+
+#quick_search_form .form-control{
+	height:50px;
+	color:black;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+
+.slider-overlay .btn{
+	font-size: 18px;
+	letter-spacing: 1px;
+	padding:13px;
+}
+
+@media screen and (max-width: 767px) {
+.slider-overlay p{
+	padding-bottom: 30px;
+}
+}
+
+@media (min-width: 768px) and (min-width: 992px) and (min-width: 1200px) {
+
+	.slider-overlay p{
+	padding-bottom: 20px;
+ }
+}
+
+.slider-overlay p{
+	letter-spacing: 1px;
+}
+
+/* Extra small devices (phones, up to 480px) */
+/*@media screen and (max-width: 767px) {
+		.slider-overlay h3{font-size: 20px;}
+}*/
+/* Small devices (tablets, 768px and up) */
+/*@media (min-width: 768px) and (max-width: 991px) {
+}*/
+/* tablets/desktops and up ----------- */
+/*@media (min-width: 992px) and (max-width: 1199px) {
+}*/
+/* large desktops and up ----------- */
+/*@media screen and (min-width: 1200px) {
+}*/
+
+
+
+
+

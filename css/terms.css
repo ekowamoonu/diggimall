@@ -1,0 +1,84 @@
+body{
+	font-family: "Open Sans",sans-serif;
+	margin:0;
+	padding:0;
+   background-color: #f5f5f5;
+}
+
+.navbar-inverse{
+  border-bottom: 1px solid #eee;
+
+}
+
+.faq-head-container{
+	padding:0;
+}
+
+
+
+.faq-head{
+	background-color:white;
+	font-family: "Trebuchet MS",sans-serif;
+	height:auto;
+	min-height:100px;
+	border-bottom: 4px solid #e7edee;
+}
+
+.faq-head h3{
+	margin:0;
+	padding:0;
+	padding-top:30px;
+	color:#999;
+}
+
+.main-container{
+	margin-top:10px;
+	background-color:white;
+	border-bottom: 4px solid #e7edee;
+	padding:20px;
+	height:auto;
+}
+
+.terms-row{
+	padding:26px;
+}
+
+.terms-row h3{
+	font-family: "Trebuchet MS",sans-serif;
+}
+
+.terms-row p,.terms-row ul li{
+	font-size: 17px;
+}
+
+
+
+
+/*call to action*/
+.call-to-action .btn{
+  padding:20px;
+  font-size:18px;
+  margin-top: 3%;
+  color:white;
+  border-radius: 0;
+}
+
+.call-to-action .btn-default:hover{
+	background-color:white;
+	color:#579ed2;
+	border:1px solid #579ed2;
+	transition:0.3s ease;
+}
+
+
+.done-container{
+	margin-top: 7%; 
+	font-family: "Trebuchet MS",sans-serif;
+}
+
+
+
+
+
+
+

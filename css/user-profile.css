@@ -1,0 +1,292 @@
+html,body{
+	font-family: "Open Sans",sans-serif;
+	margin:0;
+	padding:0;
+    /*background-color: #f5f5f5;*/
+}
+
+.navbar-inverse{
+  border-bottom: 1px solid #eee;
+
+}
+
+/*profile form*/
+.profile{
+	position: absolute;
+	right:0;
+	top:353px;
+	padding:0;
+}
+
+.profile .profile-details{
+	min-height: 500px;
+	background-color: red;
+}
+
+.profile-form{
+	margin-top: 33px;
+	padding-left:20px;
+	border-left: 1px solid #eee;
+}
+
+.profile-form .form-control{
+	border-radius: 0;
+}
+.profile-form h4{
+	background-color: #049372;
+	color:white;
+	letter-spacing: 1px;
+	padding:10px;
+}
+
+.profile-form .btn{
+    background-color: #f36700;
+    border: medium none;
+    border-radius: 0;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 15px 20px;
+}
+
+.profile-form .btn:hover{
+	background-color: #d9822a;
+}
+
+
+/*categories naviagation*/
+.categories-navigation{
+	background-color:#1a2533;
+	position: relative;
+}
+
+
+.categories-navigation ul li a{
+	color:white;
+	cursor:pointer;
+	font-size: 13px;
+	padding:12px;
+	letter-spacing: 1px;
+	background-color: transparent;
+}
+
+.categories-navigation ul li.dropdown a:hover{
+	background-color: #3498DB;
+}
+
+.categories-navigation .dropdown-menu{
+	background-color:#f7f3f3;
+	color:black;
+	border:1px solid white;
+}
+
+.categories-navigation .dropdown-menu li a{
+	background-color: transparent;
+	color:black;
+}
+
+/****full width dropdown menu****/
+.categories-navigation .nav > li.dropdown.open {
+    position: static;
+}
+.categories-navigation .nav > li.dropdown.open .dropdown-menu {
+    display:table; width: 100%; text-align: center; left:0; right:0;
+}
+.categories-navigation .dropdown-menu>li {
+    display: table-cell;
+}
+
+.landing-container{
+padding:0;
+}
+
+
+.landing{
+	/*background-color: #22A7F0;*/
+	background-color: #22A7F0;
+	min-height: 150px;
+	margin-top: 0;
+	padding:15px;
+}
+
+.landing h1{
+	color:white;
+	margin: 0;
+	padding-top: 20px;
+	letter-spacing: 2px;
+	font-size: 48px;
+	text-transform: uppercase; 
+	/*margin-top:135px;*/
+	/*font-size: 14em;*/
+
+}
+
+.landing p{
+	color:white;
+    font-size:21px;
+    padding-left: 5px;
+    letter-spacing: 1px;
+    padding-top:6px;
+}
+
+.follow-div{
+	background-color: #eee;
+}
+
+.follow-div p{
+	font-size: 15px;
+	padding:10px;
+	letter-spacing: 1px;
+	cursor: pointer;
+	color:black;
+}
+
+.follow-div p a{
+	color:black;
+}
+
+/*wishlist*/
+.shopping-activities{
+	margin-top:50px;
+	margin-bottom: 70px;
+}
+
+.wishlist h4,.orders h4,.shops-followed h4{
+	border-bottom:1px solid #eee;
+	padding-bottom: 8px;
+}
+
+.wishlist-list .fa-close,.shops-followed .fa-reply{
+	position: absolute;
+	font-weight: normal;
+	top:-5px;
+	right:10px;
+
+}
+
+/*PRICING*/
+.selling-price{
+	color:#ff6c00;
+	
+}
+
+.cancelled-price{
+	color:grey;
+	text-decoration:line-through;
+	font-size: 15px;
+	
+}
+
+
+.sadface h5{
+  margin:0;
+  padding:0;
+}
+
+.sadface img{
+	margin:50px auto;
+}
+
+.wishlist-list .col-sm-3{
+	padding:25px;
+}
+
+.items{
+	min-height:700px;
+	margin-bottom:200px;
+}
+
+.items h4{
+	border-bottom:1px solid #eee;
+	padding-bottom: 10px;
+}
+
+
+/*orders*/
+.orders-row{
+	margin-top:60px;
+	margin-bottom:60px;
+}
+.orders-row .nav-tabs > li {
+     border-radius: 0;
+    margin-right: 5px;
+    margin-top: 5px;
+    font-size: 16px;
+    color:#b7b4b4;
+    background-color: #eee;
+}
+
+.orders-row .nav-tabs > li > a{
+	color:black;
+}
+
+#return_policy h4{
+  font-weight: bold;
+  margin-bottom:0;
+  margin-top: 10px;
+}
+
+
+
+
+.main-item-box{
+	position: relative;
+	margin-top: 15px;
+}
+
+ .item-box{
+/*	background:url(../images/mall_loading.gif) no-repeat center center;*/
+	margin-top:1%;
+/*	border:1px solid #eee;*/
+	position: relative;
+	border-top:1px solid #eee;
+	border-left:1px solid #eee;
+	border-right:1px solid #eee;
+	height: 285px;
+	overflow: hidden;
+	
+}
+
+
+ .item-details{
+	background-color:white;
+	height:110px;
+	border:1px solid #eee;
+	background-color:white;
+	
+}
+
+
+ .col-md-3{
+	padding:10px;
+}
+
+.main-item-box  h5{
+	font-size: 21px;
+	color:orange;
+}
+
+.main-item-box  p{
+	font-size: 13px;
+}
+
+
+/*ORDERS*/
+.table{
+	margin-top: 30px;
+}
+
+
+
+.order-image-box{
+	height:200px;
+	overflow: hidden;
+}
+
+
+
+
+

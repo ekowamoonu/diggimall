@@ -1,0 +1,216 @@
+body{
+	font-family: "Open Sans",sans-serif;
+	margin:0;
+	padding:0;
+	background-color:   #ebeaea;
+}
+
+.navbar-inverse{
+  border-bottom: 1px solid #eee;
+
+
+}
+
+/*cart added container*/
+.bag-added-container{
+	background-color:#26A65B;
+	position:fixed;
+	color:white;
+	width:100%;
+   font-weight: normal;
+	top:0;
+	left:0;
+	z-index:1;
+	transition:all 0.3s ease;
+	overflow: hidden;
+	height:0;
+}
+
+.bag-added-container h3{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.bag-added-container a{
+	color:white;
+	text-decoration: underline;
+}
+
+
+/*cart*/
+.cart-image{
+	height:260px;
+	overflow: hidden;
+	margin-top:18px;
+	background-color: white;
+    background-image:url(../images/mall_loading.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+    margin-top:18px;
+    min-height: 262px;
+    padding:15px;
+}
+
+.cart-container{
+	margin-top:5%;
+}
+
+.cart-row{
+	margin-bottom:3%;
+}
+
+.cart-head{
+margin:0;
+width:100%;
+font-size:;
+padding:10px;
+background-color:#3498DB; 
+color:white;
+}
+
+.md6,.md3{
+	background-color:white;
+}
+
+.md6{
+	height:auto;
+	min-height:280px;
+}
+
+.md6 h3{
+	font-family: "Trebuchet MS",Calibri,sans-serif;
+}
+
+
+
+.btn-default{
+	border-color:#3498DB;
+	background-color:#3498DB;
+	color:white;
+	border-radius: 0;
+}
+
+.btn-default:hover{
+	background-color:white;
+	color:#3498DB;
+}
+
+.second{
+	margin-left:5px;
+}
+
+.h4btn{
+	margin-top:16px;
+}
+
+.price{
+	background-color:white;
+	min-height: 280px;
+	border-left: 2px solid #eee;
+}
+
+.price h2{
+	color:orange;
+	font-weight: bold;
+	padding-top:30px;
+	padding-bottom: 60px;
+}
+
+.price .btn-danger{
+	border-radius: 0;
+	padding:10px 17px;
+}
+
+/*total*/
+.price h4{
+	color:red;
+	font-weight: bold;
+	padding-top:40px;
+}
+
+.price h3{
+	font-size:38px;
+	padding-bottom: 20px;
+}
+
+.price .btn-info{
+	padding:20px 80px;
+	border-radius:0;
+	font-weight:bold;
+	background-color:#f36700;
+	border:1px solid white;
+}
+
+.price .btn-info:hover{
+	 background-color:#f27b24;
+}
+
+.cart-final{
+	height:260px;
+	overflow: hidden;
+	margin-top:18px;
+	background-color: white;
+    background-image:url(../images/logo_bag.png);
+	background-repeat: no-repeat;
+	background-position: center;
+    margin-top:18px;
+    min-height: 262px;
+    padding:15px;
+}
+
+/*detail container*/
+.detail-container{
+	margin-top:5%;
+}
+
+.badge{
+	padding:13px;
+	background-color: #1E8BC3;
+	border-radius:20px;
+	border:1px solid #1E8BC3;
+}
+
+
+.shopping-row .fa-shopping-bag{
+	color:#eee;
+}
+
+
+/*call to action*/
+.call-to-action .btn{
+  padding:20px;
+  font-size:16px;
+  margin-top: 3%;
+  color:white;
+  border-radius: 0;
+}
+
+.call-to-action .btn-default:hover{
+	background-color:white;
+	color:#579ed2;
+	border:1px solid #579ed2;
+	transition:0.3s ease;
+}
+
+
+.done-container{
+	margin-top: 3%; 
+	font-family: "Trebuchet MS",sans-serif;
+}
+
+
+
+.done-container h3{
+	font-size: 28px;
+	padding:10px;
+	margin:0;
+	color:#999;
+	display: inline-block;
+}
+
+
+
+
+
+
+
